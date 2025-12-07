@@ -1,3 +1,6 @@
+linear_stretch/
+single_genre/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

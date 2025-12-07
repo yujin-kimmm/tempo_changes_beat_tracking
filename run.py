@@ -1,4 +1,5 @@
 import mir_eval
+import os
 import madmom
 import numpy as np
 import json
@@ -19,10 +20,6 @@ def evaluate_beats(ref_beats, est_beats):
     return results
 
 def run_model(audio_file, plot=False, plot_save=False):
-    
-    # Save array to temp file - not all models take array as an input
-    # with tempfile.NamedTemporaryFile(suffix=".wav", delete=True) as temp_audio:
-    #     sf.write(temp_audio.name, audio, sample_rate)
 
     # Model 1: beat_this
     beat_this = File2Beats(checkpoint_path="final0", device="cpu", dbn=True)
@@ -48,7 +45,7 @@ def run_model(audio_file, plot=False, plot_save=False):
     
     return beats_bt, beats_bn, beats_mm
 
-def evaluation(file_name, ref_beats, est_bt, est_bn, est_mm, save=True, json_file='results.json'):
+def evaluation(file_name, ref_beats, est_bt, est_bn, est_mm, save=True, json_file='results/results.json'):
     
     beat_this_results = evaluate_beats(ref_beats, est_bt)
     beat_net_results = evaluate_beats(ref_beats, est_bn)
@@ -62,17 +59,19 @@ def evaluation(file_name, ref_beats, est_bt, est_bn, est_mm, save=True, json_fil
 
     info = {f"{file_name}": combined_results}
     
+    os.makedirs("results", exist_ok=True)
+    base_dir = "./results/"
+    
     if save==True:
         try:
-            with open(json_file, 'r') as f:
+            with open(os.path.join(base_dir +json_file), 'r') as f:
                 all_results = json.load(f)
         except FileNotFoundError:
             all_results = {} 
             
         all_results.update(info)
         
-        with open(json_file, 'w') as f:
+        with open(os.path.join(base_dir + json_file), 'w') as f:
             json.dump(all_results, f, indent=2)
-    
     
     return combined_results, info

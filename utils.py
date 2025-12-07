@@ -49,6 +49,7 @@ def plot_beats(audio_file, beats_bt, beats_bn, beats_mm, save=False):
         print("\n✓ Saved: beat_comparison.png")
     plt.show()
     
+    
 def mean_std(json_file):
     # Load JSON results file
     with open(json_file, 'r') as f:
