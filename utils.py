@@ -1,6 +1,9 @@
+import numpy as np
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
+import json
+import pandas as pd
 
 
 def plot_beats(audio_file, beats_bt, beats_bn, beats_mm, save=False):
@@ -46,3 +49,41 @@ def plot_beats(audio_file, beats_bt, beats_bn, beats_mm, save=False):
         print("\n✓ Saved: beat_comparison.png")
     plt.show()
     
+def mean_std(json_file):
+    # Load JSON results file
+    with open(json_file, 'r') as f:
+        results = json.load(f)
+
+    # Extract metrics for each model
+    beat_this_scores = {'F-measure': [], 'Cemgil': [], 'CMLc': []}
+    beat_net_scores = {'F-measure': [], 'Cemgil': [], 'CMLc': []}
+    madmom_scores = {'F-measure': [], 'Cemgil': [], 'CMLc': []}
+
+    for track_id, track_results in results.items():
+        # Parse string-formatted dictionaries
+        beat_this = eval(track_results['beat_this'])
+        beat_net = eval(track_results['beat_net'])
+        madmom = eval(track_results['madmom'])
+        
+        for metric in ['F-measure', 'Cemgil', 'CMLc']:
+            beat_this_scores[metric].append(float(beat_this[metric]))
+            beat_net_scores[metric].append(float(beat_net[metric]))
+            madmom_scores[metric].append(float(madmom[metric]))
+
+    # Calculate statistics
+    stats = pd.DataFrame({
+        'Model': ['beat_this', 'beat_this', 'beat_this', 'beat_net', 'beat_net', 'beat_net', 'madmom', 'madmom', 'madmom'],
+        'Metric': ['F-measure', 'Cemgil', 'CMLc'] * 3,
+        'Mean': [
+            np.mean(beat_this_scores['F-measure']), np.mean(beat_this_scores['Cemgil']), np.mean(beat_this_scores['CMLc']),
+            np.mean(beat_net_scores['F-measure']), np.mean(beat_net_scores['Cemgil']), np.mean(beat_net_scores['CMLc']),
+            np.mean(madmom_scores['F-measure']), np.mean(madmom_scores['Cemgil']), np.mean(madmom_scores['CMLc'])
+        ],
+        'Std': [
+            np.std(beat_this_scores['F-measure']), np.std(beat_this_scores['Cemgil']), np.std(beat_this_scores['CMLc']),
+            np.std(beat_net_scores['F-measure']), np.std(beat_net_scores['Cemgil']), np.std(beat_net_scores['CMLc']),
+            np.std(madmom_scores['F-measure']), np.std(madmom_scores['Cemgil']), np.std(madmom_scores['CMLc'])
+        ]
+    })
+
+    print(stats)
