@@ -4,9 +4,9 @@ import os
 import numpy as np
 import soundfile as sf
 
-from time_stretch import load_dataset
+from data_preprocessing.time_stretch import load_dataset
 
-def concatenate_tracks_single_genre(dataset_name, data_home, output_dir="./", segment_start=0, segment_end=15):
+def concatenate_tracks_single_genre(dataset_name, data_home, output_dir=".", segment_start=0, segment_end=15):
     """
     Creates a synthetic dataset by combining segments from pairs of tracks.
     
