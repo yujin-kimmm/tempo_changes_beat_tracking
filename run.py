@@ -16,6 +16,9 @@ def evaluate_beats(ref_beats, est_beats):
         "F-measure": f"{fscore:.2f}",
         "Cemgil": f"{float(cemgil_score[0]):.2f}",
         "CMLc": f"{float(cmlc):.2f}",
+        "CMLt": f"{float(cmlt):.2f}",
+        "AMLc": f"{float(amlc):.2f}",
+        "AMLt": f"{float(amlt):.2f}"
     }
     return results
 

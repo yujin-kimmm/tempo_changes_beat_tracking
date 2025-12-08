@@ -1,0 +1,502 @@
+{
+  "0_pop135bpm_country86bpm": {
+    "beat_this": "{'F-measure': '0.81', 'Cemgil': '0.63', 'CMLc': '0.53', 'CMLt': '0.76', 'AMLc': '0.53', 'AMLt': '0.76'}",
+    "beat_net": "{'F-measure': '0.48', 'Cemgil': '0.37', 'CMLc': '0.24', 'CMLt': '0.24', 'AMLc': '0.24', 'AMLt': '0.24'}",
+    "madmom": "{'F-measure': '0.62', 'Cemgil': '0.54', 'CMLc': '0.24', 'CMLt': '0.24', 'AMLc': '0.41', 'AMLt': '0.41'}"
+  },
+  "10_pop90bpm_country80bpm": {
+    "beat_this": "{'F-measure': '0.90', 'Cemgil': '0.80', 'CMLc': '0.61', 'CMLt': '0.91', 'AMLc': '0.61', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.92', 'Cemgil': '0.76', 'CMLc': '0.88', 'CMLt': '0.88', 'AMLc': '0.88', 'AMLt': '0.88'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.88', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}"
+  },
+  "11_pop120bpm_country114bpm": {
+    "beat_this": "{'F-measure': '0.98', 'Cemgil': '0.85', 'CMLc': '0.49', 'CMLt': '0.95', 'AMLc': '0.49', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.80', 'CMLc': '0.49', 'CMLt': '0.95', 'AMLc': '0.49', 'AMLt': '0.95'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.87', 'CMLc': '0.49', 'CMLt': '0.95', 'AMLc': '0.49', 'AMLt': '0.95'}"
+  },
+  "12_pop103bpm_country176bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.87', 'CMLc': '0.54', 'CMLt': '0.91', 'AMLc': '0.54', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.85', 'CMLc': '0.56', 'CMLt': '0.93', 'AMLc': '0.56', 'AMLt': '0.93'}",
+    "madmom": "{'F-measure': '0.80', 'Cemgil': '0.73', 'CMLc': '0.37', 'CMLt': '0.37', 'AMLc': '0.42', 'AMLt': '0.42'}"
+  },
+  "13_pop88bpm_country127bpm": {
+    "beat_this": "{'F-measure': '0.92', 'Cemgil': '0.78', 'CMLc': '0.54', 'CMLt': '0.84', 'AMLc': '0.54', 'AMLt': '0.84'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.77', 'CMLc': '0.50', 'CMLt': '0.93', 'AMLc': '0.50', 'AMLt': '0.93'}",
+    "madmom": "{'F-measure': '0.83', 'Cemgil': '0.76', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.42', 'AMLt': '0.42'}"
+  },
+  "14_pop132bpm_country137bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.81', 'CMLc': '0.48', 'CMLt': '0.93', 'AMLc': '0.48', 'AMLt': '0.93'}",
+    "beat_net": "{'F-measure': '0.99', 'Cemgil': '0.86', 'CMLc': '0.49', 'CMLt': '0.99', 'AMLc': '0.49', 'AMLt': '0.99'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.90', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "15_pop122bpm_country148bpm": {
+    "beat_this": "{'F-measure': '0.85', 'Cemgil': '0.69', 'CMLc': '0.38', 'CMLt': '0.83', 'AMLc': '0.38', 'AMLt': '0.83'}",
+    "beat_net": "{'F-measure': '0.71', 'Cemgil': '0.57', 'CMLc': '0.24', 'CMLt': '0.64', 'AMLc': '0.24', 'AMLt': '0.64'}",
+    "madmom": "{'F-measure': '0.93', 'Cemgil': '0.78', 'CMLc': '0.69', 'CMLt': '0.94', 'AMLc': '0.69', 'AMLt': '0.94'}"
+  },
+  "16_pop97bpm_country213bpm": {
+    "beat_this": "{'F-measure': '0.61', 'Cemgil': '0.48', 'CMLc': '0.34', 'CMLt': '0.34', 'AMLc': '0.34', 'AMLt': '0.34'}",
+    "beat_net": "{'F-measure': '0.80', 'Cemgil': '0.71', 'CMLc': '0.34', 'CMLt': '0.34', 'AMLc': '0.49', 'AMLt': '0.49'}",
+    "madmom": "{'F-measure': '0.80', 'Cemgil': '0.72', 'CMLc': '0.34', 'CMLt': '0.34', 'AMLc': '0.49', 'AMLt': '0.49'}"
+  },
+  "17_pop112bpm_country175bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.90', 'CMLc': '0.58', 'CMLt': '0.95', 'AMLc': '0.58', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.60', 'Cemgil': '0.53', 'CMLc': '0.58', 'CMLt': '0.58', 'AMLc': '0.58', 'AMLt': '0.58'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.93', 'CMLc': '0.58', 'CMLt': '0.97', 'AMLc': '0.58', 'AMLt': '0.97'}"
+  },
+  "18_pop130bpm_country172bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.80', 'CMLc': '0.53', 'CMLt': '0.95', 'AMLc': '0.53', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.75', 'Cemgil': '0.69', 'CMLc': '0.53', 'CMLt': '0.71', 'AMLc': '0.53', 'AMLt': '0.71'}",
+    "madmom": "{'F-measure': '0.83', 'Cemgil': '0.71', 'CMLc': '0.45', 'CMLt': '0.45', 'AMLc': '0.45', 'AMLt': '0.45'}"
+  },
+  "19_pop134bpm_country86bpm": {
+    "beat_this": "{'F-measure': '0.72', 'Cemgil': '0.58', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.88', 'Cemgil': '0.74', 'CMLc': '0.57', 'CMLt': '0.79', 'AMLc': '0.57', 'AMLt': '0.79'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.90', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "1_pop100bpm_country129bpm": {
+    "beat_this": "{'F-measure': '0.90', 'Cemgil': '0.82', 'CMLc': '0.44', 'CMLt': '0.86', 'AMLc': '0.44', 'AMLt': '0.86'}",
+    "beat_net": "{'F-measure': '0.96', 'Cemgil': '0.86', 'CMLc': '0.47', 'CMLt': '0.91', 'AMLc': '0.47', 'AMLt': '0.91'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.93', 'CMLc': '0.53', 'CMLt': '0.97', 'AMLc': '0.53', 'AMLt': '0.97'}"
+  },
+  "20_pop98bpm_country103bpm": {
+    "beat_this": "{'F-measure': '0.69', 'Cemgil': '0.59', 'CMLc': '0.45', 'CMLt': '0.63', 'AMLc': '0.45', 'AMLt': '0.63'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.82', 'CMLc': '0.49', 'CMLt': '0.94', 'AMLc': '0.49', 'AMLt': '0.94'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.87', 'CMLc': '0.49', 'CMLt': '0.96', 'AMLc': '0.49', 'AMLt': '0.96'}"
+  },
+  "21_pop135bpm_country109bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.68', 'CMLc': '0.49', 'CMLt': '0.92', 'AMLc': '0.49', 'AMLt': '0.92'}",
+    "beat_net": "{'F-measure': '0.83', 'Cemgil': '0.67', 'CMLc': '0.49', 'CMLt': '0.87', 'AMLc': '0.49', 'AMLt': '0.87'}",
+    "madmom": "{'F-measure': '0.94', 'Cemgil': '0.77', 'CMLc': '0.48', 'CMLt': '0.89', 'AMLc': '0.48', 'AMLt': '0.89'}"
+  },
+  "22_pop132bpm_country62bpm": {
+    "beat_this": "{'F-measure': '0.73', 'Cemgil': '0.63', 'CMLc': '0.44', 'CMLt': '0.44', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "beat_net": "{'F-measure': '0.78', 'Cemgil': '0.71', 'CMLc': '0.58', 'CMLt': '0.58', 'AMLc': '0.58', 'AMLt': '0.58'}",
+    "madmom": "{'F-measure': '0.76', 'Cemgil': '0.68', 'CMLc': '0.42', 'CMLt': '0.42', 'AMLc': '0.42', 'AMLt': '0.42'}"
+  },
+  "23_pop130bpm_country82bpm": {
+    "beat_this": "{'F-measure': '0.67', 'Cemgil': '0.51', 'CMLc': '0.49', 'CMLt': '0.49', 'AMLc': '0.49', 'AMLt': '0.49'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.80', 'CMLc': '0.60', 'CMLt': '0.94', 'AMLc': '0.60', 'AMLt': '0.94'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.79', 'CMLc': '0.60', 'CMLt': '0.96', 'AMLc': '0.60', 'AMLt': '0.96'}"
+  },
+  "24_pop103bpm_country128bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.85', 'CMLc': '0.47', 'CMLt': '0.90', 'AMLc': '0.47', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.82', 'CMLc': '0.52', 'CMLt': '0.97', 'AMLc': '0.52', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.86', 'CMLc': '0.53', 'CMLt': '0.95', 'AMLc': '0.53', 'AMLt': '0.95'}"
+  },
+  "25_pop158bpm_country72bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.71', 'CMLc': '0.53', 'CMLt': '0.53', 'AMLc': '0.53', 'AMLt': '0.53'}",
+    "beat_net": "{'F-measure': '0.78', 'Cemgil': '0.71', 'CMLc': '0.53', 'CMLt': '0.53', 'AMLc': '0.53', 'AMLt': '0.53'}",
+    "madmom": "{'F-measure': '0.82', 'Cemgil': '0.74', 'CMLc': '0.52', 'CMLt': '0.52', 'AMLc': '0.52', 'AMLt': '0.52'}"
+  },
+  "26_pop124bpm_country108bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.87', 'CMLc': '0.47', 'CMLt': '0.91', 'AMLc': '0.47', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.96', 'Cemgil': '0.91', 'CMLc': '0.53', 'CMLt': '0.97', 'AMLc': '0.53', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.89', 'CMLc': '0.53', 'CMLt': '0.95', 'AMLc': '0.53', 'AMLt': '0.95'}"
+  },
+  "27_pop109bpm_country93bpm": {
+    "beat_this": "{'F-measure': '0.77', 'Cemgil': '0.63', 'CMLc': '0.45', 'CMLt': '0.76', 'AMLc': '0.45', 'AMLt': '0.76'}",
+    "beat_net": "{'F-measure': '0.65', 'Cemgil': '0.43', 'CMLc': '0.65', 'CMLt': '0.65', 'AMLc': '0.65', 'AMLt': '0.65'}",
+    "madmom": "{'F-measure': '0.68', 'Cemgil': '0.57', 'CMLc': '0.66', 'CMLt': '0.66', 'AMLc': '0.66', 'AMLt': '0.66'}"
+  },
+  "28_pop103bpm_country89bpm": {
+    "beat_this": "{'F-measure': '0.88', 'Cemgil': '0.72', 'CMLc': '0.44', 'CMLt': '0.83', 'AMLc': '0.44', 'AMLt': '0.83'}",
+    "beat_net": "{'F-measure': '0.95', 'Cemgil': '0.85', 'CMLc': '0.52', 'CMLt': '0.92', 'AMLc': '0.52', 'AMLt': '0.92'}",
+    "madmom": "{'F-measure': '0.92', 'Cemgil': '0.85', 'CMLc': '0.50', 'CMLt': '0.94', 'AMLc': '0.50', 'AMLt': '0.94'}"
+  },
+  "29_pop104bpm_country91bpm": {
+    "beat_this": "{'F-measure': '0.36', 'Cemgil': '0.28', 'CMLc': '0.31', 'CMLt': '0.35', 'AMLc': '0.53', 'AMLt': '0.53'}",
+    "beat_net": "{'F-measure': '0.40', 'Cemgil': '0.26', 'CMLc': '0.42', 'CMLt': '0.42', 'AMLc': '0.54', 'AMLt': '0.54'}",
+    "madmom": "{'F-measure': '0.44', 'Cemgil': '0.35', 'CMLc': '0.42', 'CMLt': '0.42', 'AMLc': '0.54', 'AMLt': '0.54'}"
+  },
+  "2_pop111bpm_country164bpm": {
+    "beat_this": "{'F-measure': '0.65', 'Cemgil': '0.57', 'CMLc': '0.50', 'CMLt': '0.51', 'AMLc': '0.50', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.68', 'Cemgil': '0.60', 'CMLc': '0.50', 'CMLt': '0.50', 'AMLc': '0.50', 'AMLt': '0.50'}",
+    "madmom": "{'F-measure': '0.69', 'Cemgil': '0.63', 'CMLc': '0.53', 'CMLt': '0.55', 'AMLc': '0.53', 'AMLt': '0.55'}"
+  },
+  "30_pop129bpm_country80bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.78', 'CMLc': '0.61', 'CMLt': '0.94', 'AMLc': '0.61', 'AMLt': '0.94'}",
+    "beat_net": "{'F-measure': '0.38', 'Cemgil': '0.30', 'CMLc': '0.31', 'CMLt': '0.31', 'AMLc': '0.40', 'AMLt': '0.42'}",
+    "madmom": "{'F-measure': '0.81', 'Cemgil': '0.67', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}"
+  },
+  "31_pop125bpm_country111bpm": {
+    "beat_this": "{'F-measure': '0.90', 'Cemgil': '0.79', 'CMLc': '0.52', 'CMLt': '0.87', 'AMLc': '0.52', 'AMLt': '0.87'}",
+    "beat_net": "{'F-measure': '0.80', 'Cemgil': '0.66', 'CMLc': '0.44', 'CMLt': '0.90', 'AMLc': '0.44', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.92', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "32_pop108bpm_country98bpm": {
+    "beat_this": "{'F-measure': '0.86', 'Cemgil': '0.77', 'CMLc': '0.45', 'CMLt': '0.86', 'AMLc': '0.45', 'AMLt': '0.86'}",
+    "beat_net": "{'F-measure': '0.91', 'Cemgil': '0.82', 'CMLc': '0.52', 'CMLt': '0.90', 'AMLc': '0.52', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '0.89', 'Cemgil': '0.77', 'CMLc': '0.47', 'CMLt': '0.92', 'AMLc': '0.47', 'AMLt': '0.92'}"
+  },
+  "33_pop93bpm_country91bpm": {
+    "beat_this": "{'F-measure': '0.75', 'Cemgil': '0.69', 'CMLc': '0.32', 'CMLt': '0.32', 'AMLc': '0.32', 'AMLt': '0.32'}",
+    "beat_net": "{'F-measure': '0.70', 'Cemgil': '0.56', 'CMLc': '0.32', 'CMLt': '0.32', 'AMLc': '0.32', 'AMLt': '0.32'}",
+    "madmom": "{'F-measure': '0.78', 'Cemgil': '0.70', 'CMLc': '0.32', 'CMLt': '0.32', 'AMLc': '0.52', 'AMLt': '0.52'}"
+  },
+  "34_pop170bpm_country273bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.76', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.38', 'AMLt': '0.38'}",
+    "beat_net": "{'F-measure': '0.78', 'Cemgil': '0.71', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.38', 'AMLt': '0.38'}",
+    "madmom": "{'F-measure': '0.80', 'Cemgil': '0.76', 'CMLc': '0.37', 'CMLt': '0.37', 'AMLc': '0.44', 'AMLt': '0.44'}"
+  },
+  "35_pop135bpm_country199bpm": {
+    "beat_this": "{'F-measure': '0.68', 'Cemgil': '0.37', 'CMLc': '0.09', 'CMLt': '0.25', 'AMLc': '0.09', 'AMLt': '0.25'}",
+    "beat_net": "{'F-measure': '0.39', 'Cemgil': '0.23', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "madmom": "{'F-measure': '0.83', 'Cemgil': '0.51', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.43', 'AMLt': '0.43'}"
+  },
+  "36_pop184bpm_country113bpm": {
+    "beat_this": "{'F-measure': '0.62', 'Cemgil': '0.51', 'CMLc': '0.37', 'CMLt': '0.37', 'AMLc': '0.37', 'AMLt': '0.37'}",
+    "beat_net": "{'F-measure': '0.58', 'Cemgil': '0.50', 'CMLc': '0.29', 'CMLt': '0.29', 'AMLc': '0.29', 'AMLt': '0.29'}",
+    "madmom": "{'F-measure': '0.62', 'Cemgil': '0.55', 'CMLc': '0.37', 'CMLt': '0.37', 'AMLc': '0.37', 'AMLt': '0.37'}"
+  },
+  "37_pop125bpm_country98bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.78', 'CMLc': '0.50', 'CMLt': '0.96', 'AMLc': '0.50', 'AMLt': '0.96'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.85', 'CMLc': '0.50', 'CMLt': '0.96', 'AMLc': '0.50', 'AMLt': '0.96'}",
+    "madmom": "{'F-measure': '0.95', 'Cemgil': '0.82', 'CMLc': '0.50', 'CMLt': '0.96', 'AMLc': '0.50', 'AMLt': '0.96'}"
+  },
+  "38_pop73bpm_country156bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.66', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}",
+    "beat_net": "{'F-measure': '0.77', 'Cemgil': '0.66', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}",
+    "madmom": "{'F-measure': '0.87', 'Cemgil': '0.75', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}"
+  },
+  "39_pop122bpm_country184bpm": {
+    "beat_this": "{'F-measure': '0.98', 'Cemgil': '0.85', 'CMLc': '0.55', 'CMLt': '0.95', 'AMLc': '0.55', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.81', 'Cemgil': '0.78', 'CMLc': '0.40', 'CMLt': '0.40', 'AMLc': '0.40', 'AMLt': '0.40'}",
+    "madmom": "{'F-measure': '0.42', 'Cemgil': '0.41', 'CMLc': '0.40', 'CMLt': '0.40', 'AMLc': '0.54', 'AMLt': '0.54'}"
+  },
+  "3_pop86bpm_country80bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.80', 'CMLc': '0.51', 'CMLt': '0.91', 'AMLc': '0.51', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.94', 'Cemgil': '0.78', 'CMLc': '0.51', 'CMLt': '0.91', 'AMLc': '0.51', 'AMLt': '0.91'}",
+    "madmom": "{'F-measure': '0.95', 'Cemgil': '0.84', 'CMLc': '0.48', 'CMLt': '0.93', 'AMLc': '0.48', 'AMLt': '0.93'}"
+  },
+  "40_pop200bpm_country140bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.84', 'CMLc': '0.54', 'CMLt': '0.93', 'AMLc': '0.54', 'AMLt': '0.93'}",
+    "beat_net": "{'F-measure': '0.77', 'Cemgil': '0.69', 'CMLc': '0.35', 'CMLt': '0.35', 'AMLc': '0.42', 'AMLt': '0.42'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.85', 'CMLc': '0.54', 'CMLt': '0.93', 'AMLc': '0.54', 'AMLt': '0.93'}"
+  },
+  "41_pop125bpm_country131bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.72', 'CMLc': '0.49', 'CMLt': '0.97', 'AMLc': '0.49', 'AMLt': '0.97'}",
+    "beat_net": "{'F-measure': '0.95', 'Cemgil': '0.74', 'CMLc': '0.49', 'CMLt': '0.97', 'AMLc': '0.49', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.83', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}"
+  },
+  "42_pop163bpm_country205bpm": {
+    "beat_this": "{'F-measure': '0.99', 'Cemgil': '0.91', 'CMLc': '0.99', 'CMLt': '0.99', 'AMLc': '0.99', 'AMLt': '0.99'}",
+    "beat_net": "{'F-measure': '0.65', 'Cemgil': '0.62', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.50', 'AMLt': '0.50'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.94', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "43_pop124bpm_country138bpm": {
+    "beat_this": "{'F-measure': '0.96', 'Cemgil': '0.89', 'CMLc': '0.48', 'CMLt': '0.94', 'AMLc': '0.48', 'AMLt': '0.94'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.77', 'CMLc': '0.49', 'CMLt': '0.91', 'AMLc': '0.49', 'AMLt': '0.91'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.90', 'CMLc': '0.50', 'CMLt': '0.95', 'AMLc': '0.50', 'AMLt': '0.95'}"
+  },
+  "44_pop77bpm_country79bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.91', 'CMLc': '0.47', 'CMLt': '0.95', 'AMLc': '0.47', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.95', 'Cemgil': '0.82', 'CMLc': '0.50', 'CMLt': '0.95', 'AMLc': '0.50', 'AMLt': '0.95'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.91', 'CMLc': '0.47', 'CMLt': '0.95', 'AMLc': '0.47', 'AMLt': '0.95'}"
+  },
+  "45_pop168bpm_country79bpm": {
+    "beat_this": "{'F-measure': '0.85', 'Cemgil': '0.67', 'CMLc': '0.52', 'CMLt': '0.52', 'AMLc': '0.52', 'AMLt': '0.52'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.74', 'CMLc': '0.65', 'CMLt': '0.88', 'AMLc': '0.65', 'AMLt': '0.88'}",
+    "madmom": "{'F-measure': '0.85', 'Cemgil': '0.72', 'CMLc': '0.52', 'CMLt': '0.52', 'AMLc': '0.52', 'AMLt': '0.52'}"
+  },
+  "46_pop94bpm_country157bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.71', 'CMLc': '0.39', 'CMLt': '0.39', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.76', 'CMLc': '0.47', 'CMLt': '0.85', 'AMLc': '0.47', 'AMLt': '0.85'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.91', 'CMLc': '0.60', 'CMLt': '0.97', 'AMLc': '0.60', 'AMLt': '0.97'}"
+  },
+  "47_pop86bpm_country150bpm": {
+    "beat_this": "{'F-measure': '0.87', 'Cemgil': '0.77', 'CMLc': '0.52', 'CMLt': '0.88', 'AMLc': '0.52', 'AMLt': '0.88'}",
+    "beat_net": "{'F-measure': '0.87', 'Cemgil': '0.79', 'CMLc': '0.58', 'CMLt': '0.95', 'AMLc': '0.58', 'AMLt': '0.95'}",
+    "madmom": "{'F-measure': '0.95', 'Cemgil': '0.85', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "48_pop100bpm_country118bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.77', 'CMLc': '0.46', 'CMLt': '0.93', 'AMLc': '0.46', 'AMLt': '0.93'}",
+    "beat_net": "{'F-measure': '0.96', 'Cemgil': '0.71', 'CMLc': '0.46', 'CMLt': '0.94', 'AMLc': '0.46', 'AMLt': '0.94'}",
+    "madmom": "{'F-measure': '0.96', 'Cemgil': '0.78', 'CMLc': '0.67', 'CMLt': '0.98', 'AMLc': '0.67', 'AMLt': '0.98'}"
+  },
+  "49_pop114bpm_country114bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.84', 'CMLc': '0.47', 'CMLt': '0.91', 'AMLc': '0.47', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.70', 'Cemgil': '0.58', 'CMLc': '0.48', 'CMLt': '0.71', 'AMLc': '0.48', 'AMLt': '0.71'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.91', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}"
+  },
+  "4_pop135bpm_country118bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.79', 'CMLc': '0.53', 'CMLt': '0.95', 'AMLc': '0.53', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.92', 'Cemgil': '0.79', 'CMLc': '0.53', 'CMLt': '0.92', 'AMLc': '0.53', 'AMLt': '0.92'}",
+    "madmom": "{'F-measure': '0.95', 'Cemgil': '0.85', 'CMLc': '0.53', 'CMLt': '0.97', 'AMLc': '0.53', 'AMLt': '0.97'}"
+  },
+  "50_pop104bpm_country118bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.91', 'CMLc': '0.49', 'CMLt': '0.95', 'AMLc': '0.49', 'AMLt': '0.95'}",
+    "beat_net": "{'F-measure': '0.95', 'Cemgil': '0.83', 'CMLc': '0.51', 'CMLt': '0.96', 'AMLc': '0.51', 'AMLt': '0.96'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.93', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}"
+  },
+  "51_pop140bpm_country65bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.73', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.81', 'Cemgil': '0.74', 'CMLc': '0.47', 'CMLt': '0.47', 'AMLc': '0.47', 'AMLt': '0.47'}",
+    "madmom": "{'F-measure': '0.84', 'Cemgil': '0.75', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}"
+  },
+  "52_pop132bpm_country71bpm": {
+    "beat_this": "{'F-measure': '0.66', 'Cemgil': '0.51', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.59', 'Cemgil': '0.52', 'CMLc': '0.48', 'CMLt': '0.50', 'AMLc': '0.48', 'AMLt': '0.50'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.89', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "53_pop125bpm_country181bpm": {
+    "beat_this": "{'F-measure': '0.96', 'Cemgil': '0.78', 'CMLc': '0.56', 'CMLt': '0.92', 'AMLc': '0.56', 'AMLt': '0.92'}",
+    "beat_net": "{'F-measure': '0.99', 'Cemgil': '0.82', 'CMLc': '0.57', 'CMLt': '0.97', 'AMLc': '0.57', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.81', 'CMLc': '0.57', 'CMLt': '0.97', 'AMLc': '0.57', 'AMLt': '0.97'}"
+  },
+  "54_pop74bpm_country76bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.88', 'CMLc': '0.46', 'CMLt': '0.90', 'AMLc': '0.46', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.77', 'Cemgil': '0.70', 'CMLc': '0.50', 'CMLt': '0.74', 'AMLc': '0.50', 'AMLt': '0.74'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.98', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "55_pop74bpm_country132bpm": {
+    "beat_this": "{'F-measure': '0.96', 'Cemgil': '0.87', 'CMLc': '0.54', 'CMLt': '0.90', 'AMLc': '0.54', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.94', 'Cemgil': '0.79', 'CMLc': '0.54', 'CMLt': '0.90', 'AMLc': '0.54', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '0.84', 'Cemgil': '0.80', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}"
+  },
+  "56_pop70bpm_country82bpm": {
+    "beat_this": "{'F-measure': '0.63', 'Cemgil': '0.53', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.43', 'AMLt': '0.43'}",
+    "beat_net": "{'F-measure': '0.61', 'Cemgil': '0.54', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}",
+    "madmom": "{'F-measure': '0.63', 'Cemgil': '0.58', 'CMLc': '0.54', 'CMLt': '0.74', 'AMLc': '0.54', 'AMLt': '0.74'}"
+  },
+  "57_pop118bpm_country68bpm": {
+    "beat_this": "{'F-measure': '0.79', 'Cemgil': '0.65', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "beat_net": "{'F-measure': '0.76', 'Cemgil': '0.63', 'CMLc': '0.44', 'CMLt': '0.44', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "madmom": "{'F-measure': '0.79', 'Cemgil': '0.65', 'CMLc': '0.42', 'CMLt': '0.42', 'AMLc': '0.42', 'AMLt': '0.42'}"
+  },
+  "58_pop98bpm_country113bpm": {
+    "beat_this": "{'F-measure': '1.00', 'Cemgil': '0.89', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "beat_net": "{'F-measure': '1.00', 'Cemgil': '0.84', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.92', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "59_pop148bpm_country68bpm": {
+    "beat_this": "{'F-measure': '0.83', 'Cemgil': '0.67', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.75', 'Cemgil': '0.64', 'CMLc': '0.26', 'CMLt': '0.26', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "madmom": "{'F-measure': '0.84', 'Cemgil': '0.66', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}"
+  },
+  "5_pop120bpm_country130bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.82', 'CMLc': '0.47', 'CMLt': '0.92', 'AMLc': '0.47', 'AMLt': '0.92'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.91', 'CMLc': '0.48', 'CMLt': '0.95', 'AMLc': '0.48', 'AMLt': '0.95'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.88', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "60_pop121bpm_country70bpm": {
+    "beat_this": "{'F-measure': '0.64', 'Cemgil': '0.54', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}",
+    "beat_net": "{'F-measure': '0.75', 'Cemgil': '0.71', 'CMLc': '0.55', 'CMLt': '0.55', 'AMLc': '0.55', 'AMLt': '0.55'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.88', 'CMLc': '0.63', 'CMLt': '0.94', 'AMLc': '0.63', 'AMLt': '0.94'}"
+  },
+  "61_pop81bpm_country61bpm": {
+    "beat_this": "{'F-measure': '0.79', 'Cemgil': '0.66', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.43', 'AMLt': '0.43'}",
+    "beat_net": "{'F-measure': '0.79', 'Cemgil': '0.72', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.43', 'AMLt': '0.43'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.87', 'CMLc': '0.54', 'CMLt': '0.95', 'AMLc': '0.54', 'AMLt': '0.95'}"
+  },
+  "62_pop126bpm_country176bpm": {
+    "beat_this": "{'F-measure': '0.97', 'Cemgil': '0.89', 'CMLc': '0.56', 'CMLt': '0.94', 'AMLc': '0.56', 'AMLt': '0.94'}",
+    "beat_net": "{'F-measure': '0.97', 'Cemgil': '0.92', 'CMLc': '0.56', 'CMLt': '0.94', 'AMLc': '0.56', 'AMLt': '0.94'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.92', 'CMLc': '0.55', 'CMLt': '0.97', 'AMLc': '0.55', 'AMLt': '0.97'}"
+  },
+  "63_pop100bpm_country86bpm": {
+    "beat_this": "{'F-measure': '0.84', 'Cemgil': '0.68', 'CMLc': '0.43', 'CMLt': '0.80', 'AMLc': '0.43', 'AMLt': '0.80'}",
+    "beat_net": "{'F-measure': '0.96', 'Cemgil': '0.81', 'CMLc': '0.54', 'CMLt': '0.96', 'AMLc': '0.54', 'AMLt': '0.96'}",
+    "madmom": "{'F-measure': '0.46', 'Cemgil': '0.45', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.52', 'AMLt': '0.52'}"
+  },
+  "64_pop76bpm_country66bpm": {
+    "beat_this": "{'F-measure': '0.88', 'Cemgil': '0.62', 'CMLc': '0.50', 'CMLt': '0.84', 'AMLc': '0.50', 'AMLt': '0.84'}",
+    "beat_net": "{'F-measure': '0.67', 'Cemgil': '0.57', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.49', 'AMLt': '0.93'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.78', 'CMLc': '0.51', 'CMLt': '0.95', 'AMLc': '0.51', 'AMLt': '0.95'}"
+  },
+  "65_pop76bpm_country120bpm": {
+    "beat_this": "{'F-measure': '0.59', 'Cemgil': '0.50', 'CMLc': '0.22', 'CMLt': '0.22', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "beat_net": "{'F-measure': '0.50', 'Cemgil': '0.43', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.38', 'AMLt': '0.38'}",
+    "madmom": "{'F-measure': '0.79', 'Cemgil': '0.74', 'CMLc': '0.43', 'CMLt': '0.43', 'AMLc': '0.43', 'AMLt': '0.43'}"
+  },
+  "66_pop88bpm_country221bpm": {
+    "beat_this": "{'F-measure': '0.77', 'Cemgil': '0.55', 'CMLc': '0.29', 'CMLt': '0.29', 'AMLc': '0.48', 'AMLt': '0.50'}",
+    "beat_net": "{'F-measure': '0.76', 'Cemgil': '0.61', 'CMLc': '0.27', 'CMLt': '0.27', 'AMLc': '0.52', 'AMLt': '0.52'}",
+    "madmom": "{'F-measure': '0.76', 'Cemgil': '0.63', 'CMLc': '0.27', 'CMLt': '0.27', 'AMLc': '0.52', 'AMLt': '0.52'}"
+  },
+  "67_pop92bpm_country64bpm": {
+    "beat_this": "{'F-measure': '0.72', 'Cemgil': '0.34', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}",
+    "beat_net": "{'F-measure': '0.80', 'Cemgil': '0.64', 'CMLc': '0.56', 'CMLt': '0.85', 'AMLc': '0.56', 'AMLt': '0.85'}",
+    "madmom": "{'F-measure': '0.95', 'Cemgil': '0.70', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "68_pop62bpm_country83bpm": {
+    "beat_this": "{'F-measure': '0.78', 'Cemgil': '0.64', 'CMLc': '0.42', 'CMLt': '0.42', 'AMLc': '0.42', 'AMLt': '0.42'}",
+    "beat_net": "{'F-measure': '0.64', 'Cemgil': '0.42', 'CMLc': '0.49', 'CMLt': '0.65', 'AMLc': '0.49', 'AMLt': '0.65'}",
+    "madmom": "{'F-measure': '0.66', 'Cemgil': '0.56', 'CMLc': '0.50', 'CMLt': '0.50', 'AMLc': '0.50', 'AMLt': '0.50'}"
+  },
+  "69_pop104bpm_country113bpm": {
+    "beat_this": "{'F-measure': '0.92', 'Cemgil': '0.86', 'CMLc': '0.48', 'CMLt': '0.91', 'AMLc': '0.48', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.77', 'Cemgil': '0.68', 'CMLc': '0.44', 'CMLt': '0.75', 'AMLc': '0.44', 'AMLt': '0.75'}",
+    "madmom": "{'F-measure': '0.92', 'Cemgil': '0.82', 'CMLc': '0.48', 'CMLt': '0.91', 'AMLc': '0.48', 'AMLt': '0.91'}"
+  },
+  "6_pop122bpm_country112bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.83', 'CMLc': '0.53', 'CMLt': '0.97', 'AMLc': '0.53', 'AMLt': '0.97'}",
+    "beat_net": "{'F-measure': '0.86', 'Cemgil': '0.74', 'CMLc': '0.46', 'CMLt': '0.81', 'AMLc': '0.46', 'AMLt': '0.81'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.86', 'CMLc': '0.53', 'CMLt': '0.98', 'AMLc': '0.53', 'AMLt': '0.98'}"
+  },
+  "70_pop70bpm_country222bpm": {
+    "beat_this": "{'F-measure': '0.81', 'Cemgil': '0.71', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.43', 'AMLt': '0.43'}",
+    "beat_net": "{'F-measure': '0.81', 'Cemgil': '0.67', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "madmom": "{'F-measure': '0.81', 'Cemgil': '0.71', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.43', 'AMLt': '0.43'}"
+  },
+  "71_pop76bpm_country72bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.77', 'CMLc': '0.97', 'CMLt': '0.97', 'AMLc': '0.97', 'AMLt': '0.97'}",
+    "beat_net": "{'F-measure': '0.77', 'Cemgil': '0.59', 'CMLc': '0.39', 'CMLt': '0.39', 'AMLc': '0.40', 'AMLt': '0.40'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.77', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "72_pop144bpm_country150bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.73', 'CMLc': '0.49', 'CMLt': '0.89', 'AMLc': '0.49', 'AMLt': '0.89'}",
+    "beat_net": "{'F-measure': '0.75', 'Cemgil': '0.59', 'CMLc': '0.49', 'CMLt': '0.72', 'AMLc': '0.49', 'AMLt': '0.72'}",
+    "madmom": "{'F-measure': '0.51', 'Cemgil': '0.46', 'CMLc': '0.49', 'CMLt': '0.49', 'AMLc': '0.49', 'AMLt': '0.49'}"
+  },
+  "73_pop94bpm_country151bpm": {
+    "beat_this": "{'F-measure': '0.80', 'Cemgil': '0.74', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "beat_net": "{'F-measure': '0.60', 'Cemgil': '0.51', 'CMLc': '0.57', 'CMLt': '0.57', 'AMLc': '0.57', 'AMLt': '0.57'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.93', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "74_pop108bpm_country68bpm": {
+    "beat_this": "{'F-measure': '0.72', 'Cemgil': '0.59', 'CMLc': '0.34', 'CMLt': '0.34', 'AMLc': '0.40', 'AMLt': '0.40'}",
+    "beat_net": "{'F-measure': '0.29', 'Cemgil': '0.23', 'CMLc': '0.07', 'CMLt': '0.10', 'AMLc': '0.29', 'AMLt': '0.29'}",
+    "madmom": "{'F-measure': '0.78', 'Cemgil': '0.66', 'CMLc': '0.39', 'CMLt': '0.39', 'AMLc': '0.39', 'AMLt': '0.39'}"
+  },
+  "75_pop70bpm_country96bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.81', 'CMLc': '0.56', 'CMLt': '0.91', 'AMLc': '0.56', 'AMLt': '0.91'}",
+    "beat_net": "{'F-measure': '0.81', 'Cemgil': '0.55', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.87', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "76_pop120bpm_country145bpm": {
+    "beat_this": "{'F-measure': '0.61', 'Cemgil': '0.50', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.49', 'AMLt': '0.77'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.74', 'CMLc': '0.52', 'CMLt': '0.97', 'AMLc': '0.52', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.81', 'Cemgil': '0.66', 'CMLc': '0.51', 'CMLt': '0.78', 'AMLc': '0.51', 'AMLt': '0.78'}"
+  },
+  "77_pop75bpm_country182bpm": {
+    "beat_this": "{'F-measure': '0.65', 'Cemgil': '0.51', 'CMLc': '0.02', 'CMLt': '0.02', 'AMLc': '0.37', 'AMLt': '0.37'}",
+    "beat_net": "{'F-measure': '0.74', 'Cemgil': '0.55', 'CMLc': '0.29', 'CMLt': '0.29', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "madmom": "{'F-measure': '0.87', 'Cemgil': '0.72', 'CMLc': '0.54', 'CMLt': '0.54', 'AMLc': '0.54', 'AMLt': '0.54'}"
+  },
+  "78_pop92bpm_country68bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.68', 'CMLc': '0.55', 'CMLt': '0.88', 'AMLc': '0.55', 'AMLt': '0.88'}",
+    "beat_net": "{'F-measure': '0.64', 'Cemgil': '0.48', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.77', 'CMLc': '0.56', 'CMLt': '0.95', 'AMLc': '0.56', 'AMLt': '0.95'}"
+  },
+  "79_pop80bpm_country82bpm": {
+    "beat_this": "{'F-measure': '1.00', 'Cemgil': '0.74', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.76', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.71', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "7_pop127bpm_country51bpm": {
+    "beat_this": "{'F-measure': '0.83', 'Cemgil': '0.66', 'CMLc': '0.56', 'CMLt': '0.56', 'AMLc': '0.56', 'AMLt': '0.56'}",
+    "beat_net": "{'F-measure': '0.87', 'Cemgil': '0.77', 'CMLc': '0.59', 'CMLt': '0.59', 'AMLc': '0.59', 'AMLt': '0.59'}",
+    "madmom": "{'F-measure': '0.88', 'Cemgil': '0.75', 'CMLc': '0.58', 'CMLt': '0.58', 'AMLc': '0.58', 'AMLt': '0.58'}"
+  },
+  "80_pop90bpm_country195bpm": {
+    "beat_this": "{'F-measure': '0.74', 'Cemgil': '0.65', 'CMLc': '0.31', 'CMLt': '0.31', 'AMLc': '0.39', 'AMLt': '0.39'}",
+    "beat_net": "{'F-measure': '0.75', 'Cemgil': '0.63', 'CMLc': '0.31', 'CMLt': '0.31', 'AMLc': '0.36', 'AMLt': '0.36'}",
+    "madmom": "{'F-measure': '0.77', 'Cemgil': '0.69', 'CMLc': '0.30', 'CMLt': '0.30', 'AMLc': '0.49', 'AMLt': '0.49'}"
+  },
+  "81_pop88bpm_country180bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.86', 'CMLc': '0.43', 'CMLt': '0.76', 'AMLc': '0.43', 'AMLt': '0.76'}",
+    "beat_net": "{'F-measure': '1.00', 'Cemgil': '0.89', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "madmom": "{'F-measure': '0.79', 'Cemgil': '0.73', 'CMLc': '0.33', 'CMLt': '0.33', 'AMLc': '0.50', 'AMLt': '0.50'}"
+  },
+  "82_pop140bpm_country234bpm": {
+    "beat_this": "{'F-measure': '0.76', 'Cemgil': '0.60', 'CMLc': '0.24', 'CMLt': '0.33', 'AMLc': '0.44', 'AMLt': '0.44'}",
+    "beat_net": "{'F-measure': '0.74', 'Cemgil': '0.59', 'CMLc': '0.29', 'CMLt': '0.29', 'AMLc': '0.35', 'AMLt': '0.35'}",
+    "madmom": "{'F-measure': '0.81', 'Cemgil': '0.64', 'CMLc': '0.38', 'CMLt': '0.38', 'AMLc': '0.43', 'AMLt': '0.43'}"
+  },
+  "83_pop138bpm_country73bpm": {
+    "beat_this": "{'F-measure': '0.82', 'Cemgil': '0.69', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}",
+    "beat_net": "{'F-measure': '0.94', 'Cemgil': '0.75', 'CMLc': '0.64', 'CMLt': '0.91', 'AMLc': '0.64', 'AMLt': '0.91'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.88', 'CMLc': '0.63', 'CMLt': '0.96', 'AMLc': '0.63', 'AMLt': '0.96'}"
+  },
+  "84_pop98bpm_country173bpm": {
+    "beat_this": "{'F-measure': '0.98', 'Cemgil': '0.82', 'CMLc': '0.63', 'CMLt': '0.94', 'AMLc': '0.63', 'AMLt': '0.94'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.85', 'CMLc': '0.59', 'CMLt': '0.96', 'AMLc': '0.59', 'AMLt': '0.96'}",
+    "madmom": "{'F-measure': '0.75', 'Cemgil': '0.66', 'CMLc': '0.30', 'CMLt': '0.30', 'AMLc': '0.46', 'AMLt': '0.46'}"
+  },
+  "85_pop80bpm_country73bpm": {
+    "beat_this": "{'F-measure': '0.88', 'Cemgil': '0.81', 'CMLc': '0.51', 'CMLt': '0.87', 'AMLc': '0.51', 'AMLt': '0.87'}",
+    "beat_net": "{'F-measure': '0.91', 'Cemgil': '0.79', 'CMLc': '0.51', 'CMLt': '0.90', 'AMLc': '0.51', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '0.96', 'Cemgil': '0.90', 'CMLc': '0.51', 'CMLt': '0.92', 'AMLc': '0.51', 'AMLt': '0.92'}"
+  },
+  "86_pop90bpm_country237bpm": {
+    "beat_this": "{'F-measure': '0.62', 'Cemgil': '0.56', 'CMLc': '0.18', 'CMLt': '0.18', 'AMLc': '0.54', 'AMLt': '0.54'}",
+    "beat_net": "{'F-measure': '0.63', 'Cemgil': '0.53', 'CMLc': '0.21', 'CMLt': '0.21', 'AMLc': '0.53', 'AMLt': '0.53'}",
+    "madmom": "{'F-measure': '0.64', 'Cemgil': '0.54', 'CMLc': '0.18', 'CMLt': '0.18', 'AMLc': '0.54', 'AMLt': '0.54'}"
+  },
+  "87_pop120bpm_country72bpm": {
+    "beat_this": "{'F-measure': '0.79', 'Cemgil': '0.74', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}",
+    "beat_net": "{'F-measure': '0.82', 'Cemgil': '0.75', 'CMLc': '0.47', 'CMLt': '0.47', 'AMLc': '0.47', 'AMLt': '0.47'}",
+    "madmom": "{'F-measure': '0.84', 'Cemgil': '0.78', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}"
+  },
+  "88_pop134bpm_country105bpm": {
+    "beat_this": "{'F-measure': '0.93', 'Cemgil': '0.78', 'CMLc': '0.47', 'CMLt': '0.90', 'AMLc': '0.47', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.83', 'CMLc': '0.46', 'CMLt': '0.90', 'AMLc': '0.46', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '0.97', 'Cemgil': '0.87', 'CMLc': '0.95', 'CMLt': '0.95', 'AMLc': '0.95', 'AMLt': '0.95'}"
+  },
+  "89_pop127bpm_country73bpm": {
+    "beat_this": "{'F-measure': '0.77', 'Cemgil': '0.65', 'CMLc': '0.35', 'CMLt': '0.35', 'AMLc': '0.37', 'AMLt': '0.43'}",
+    "beat_net": "{'F-measure': '0.79', 'Cemgil': '0.55', 'CMLc': '0.48', 'CMLt': '0.48', 'AMLc': '0.48', 'AMLt': '0.48'}",
+    "madmom": "{'F-measure': '0.84', 'Cemgil': '0.65', 'CMLc': '0.47', 'CMLt': '0.47', 'AMLc': '0.47', 'AMLt': '0.47'}"
+  },
+  "8_pop70bpm_country66bpm": {
+    "beat_this": "{'F-measure': '0.63', 'Cemgil': '0.59', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.46', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.48', 'Cemgil': '0.41', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.40', 'AMLt': '0.42'}",
+    "madmom": "{'F-measure': '0.65', 'Cemgil': '0.62', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.49', 'AMLt': '0.93'}"
+  },
+  "90_pop124bpm_country135bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.80', 'CMLc': '0.46', 'CMLt': '0.90', 'AMLc': '0.46', 'AMLt': '0.90'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.88', 'CMLc': '0.49', 'CMLt': '0.97', 'AMLc': '0.49', 'AMLt': '0.97'}",
+    "madmom": "{'F-measure': '0.98', 'Cemgil': '0.84', 'CMLc': '0.51', 'CMLt': '0.98', 'AMLc': '0.51', 'AMLt': '0.98'}"
+  },
+  "91_pop134bpm_country38bpm": {
+    "beat_this": "{'F-measure': '0.67', 'Cemgil': '0.47', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}",
+    "beat_net": "{'F-measure': '0.74', 'Cemgil': '0.68', 'CMLc': '0.50', 'CMLt': '0.50', 'AMLc': '0.50', 'AMLt': '0.50'}",
+    "madmom": "{'F-measure': '0.78', 'Cemgil': '0.68', 'CMLc': '0.51', 'CMLt': '0.51', 'AMLc': '0.51', 'AMLt': '0.51'}"
+  },
+  "92_pop90bpm_country165bpm": {
+    "beat_this": "{'F-measure': '0.41', 'Cemgil': '0.40', 'CMLc': '0.36', 'CMLt': '0.36', 'AMLc': '0.43', 'AMLt': '0.43'}",
+    "beat_net": "{'F-measure': '0.30', 'Cemgil': '0.28', 'CMLc': '0.00', 'CMLt': '0.00', 'AMLc': '0.45', 'AMLt': '0.45'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.97', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "93_pop78bpm_country86bpm": {
+    "beat_this": "{'F-measure': '0.96', 'Cemgil': '0.66', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}",
+    "beat_net": "{'F-measure': '0.98', 'Cemgil': '0.81', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.79', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "94_pop161bpm_country114bpm": {
+    "beat_this": "{'F-measure': '0.67', 'Cemgil': '0.58', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "beat_net": "{'F-measure': '0.66', 'Cemgil': '0.54', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}",
+    "madmom": "{'F-measure': '0.80', 'Cemgil': '0.67', 'CMLc': '0.41', 'CMLt': '0.41', 'AMLc': '0.41', 'AMLt': '0.41'}"
+  },
+  "95_pop130bpm_country90bpm": {
+    "beat_this": "{'F-measure': '0.94', 'Cemgil': '0.76', 'CMLc': '0.59', 'CMLt': '0.88', 'AMLc': '0.59', 'AMLt': '0.88'}",
+    "beat_net": "{'F-measure': '0.99', 'Cemgil': '0.81', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}",
+    "madmom": "{'F-measure': '0.99', 'Cemgil': '0.89', 'CMLc': '0.98', 'CMLt': '0.98', 'AMLc': '0.98', 'AMLt': '0.98'}"
+  },
+  "96_pop91bpm_country115bpm": {
+    "beat_this": "{'F-measure': '0.85', 'Cemgil': '0.73', 'CMLc': '0.45', 'CMLt': '0.79', 'AMLc': '0.45', 'AMLt': '0.79'}",
+    "beat_net": "{'F-measure': '0.89', 'Cemgil': '0.85', 'CMLc': '0.45', 'CMLt': '0.81', 'AMLc': '0.45', 'AMLt': '0.81'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.95', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "97_pop107bpm_country38bpm": {
+    "beat_this": "{'F-measure': '0.77', 'Cemgil': '0.71', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}",
+    "beat_net": "{'F-measure': '0.76', 'Cemgil': '0.69', 'CMLc': '0.47', 'CMLt': '0.47', 'AMLc': '0.47', 'AMLt': '0.47'}",
+    "madmom": "{'F-measure': '0.77', 'Cemgil': '0.72', 'CMLc': '0.46', 'CMLt': '0.46', 'AMLc': '0.46', 'AMLt': '0.46'}"
+  },
+  "98_pop73bpm_country119bpm": {
+    "beat_this": "{'F-measure': '0.95', 'Cemgil': '0.87', 'CMLc': '0.59', 'CMLt': '0.96', 'AMLc': '0.59', 'AMLt': '0.96'}",
+    "beat_net": "{'F-measure': '0.93', 'Cemgil': '0.85', 'CMLc': '0.50', 'CMLt': '0.90', 'AMLc': '0.50', 'AMLt': '0.90'}",
+    "madmom": "{'F-measure': '0.82', 'Cemgil': '0.78', 'CMLc': '0.44', 'CMLt': '0.44', 'AMLc': '0.44', 'AMLt': '0.44'}"
+  },
+  "99_pop80bpm_country147bpm": {
+    "beat_this": "{'F-measure': '0.81', 'Cemgil': '0.71', 'CMLc': '0.47', 'CMLt': '0.47', 'AMLc': '0.47', 'AMLt': '0.47'}",
+    "beat_net": "{'F-measure': '1.00', 'Cemgil': '0.87', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}",
+    "madmom": "{'F-measure': '1.00', 'Cemgil': '0.91', 'CMLc': '1.00', 'CMLt': '1.00', 'AMLc': '1.00', 'AMLt': '1.00'}"
+  },
+  "9_pop125bpm_country97bpm": {
+    "beat_this": "{'F-measure': '0.79', 'Cemgil': '0.61', 'CMLc': '0.43', 'CMLt': '0.84', 'AMLc': '0.43', 'AMLt': '0.84'}",
+    "beat_net": "{'F-measure': '0.83', 'Cemgil': '0.59', 'CMLc': '0.39', 'CMLt': '0.86', 'AMLc': '0.39', 'AMLt': '0.86'}",
+    "madmom": "{'F-measure': '0.83', 'Cemgil': '0.60', 'CMLc': '0.43', 'CMLt': '0.89', 'AMLc': '0.43', 'AMLt': '0.89'}"
+  }
+}

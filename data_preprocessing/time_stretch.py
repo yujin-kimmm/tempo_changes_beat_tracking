@@ -98,8 +98,8 @@ def time_stretch_dataset(dataset_name, data_home):
     
     dataset, track_ids = load_dataset(dataset_name, data_home)
     
-    os.makedirs(f"linear_stretch/{dataset_name}/audio", exist_ok=True)
-    os.makedirs(f"linear_stretch/{dataset_name}/annotations", exist_ok=True)
+    os.makedirs(f"dataset/linear_stretch/{dataset_name}/audio", exist_ok=True)
+    os.makedirs(f"dataset/linear_stretch/{dataset_name}/annotations", exist_ok=True)
     
     for track_id in track_ids:
         
@@ -107,14 +107,10 @@ def time_stretch_dataset(dataset_name, data_home):
         
         sr, track_stretched, annotation_stretched = data_time_stretch(dataset, track_id)
     
-        output_path = os.path.join(f"linear_stretch/{dataset_name}/audio", f"{track_id}_bpm{bpm}_0.5x.wav")
+        output_path = os.path.join(f"dataset/linear_stretch/{dataset_name}/audio", f"{track_id}_bpm{bpm}_0.5x.wav")
         sf.write(output_path, track_stretched, samplerate=sr)
         
-        annotation_path = os.path.join(f"linear_stretch/{dataset_name}/annotations", f"{track_id}_bpm{bpm}_0.5x_beats.npy")
+        annotation_path = os.path.join(f"dataset/linear_stretch/{dataset_name}/annotations", f"{track_id}_bpm{bpm}_0.5x_beats.npy")
         np.save(annotation_path, annotation_stretched)
         
-    print(f"Time stretched dataset created at /linear_stretch/{dataset_name} directory")
-
-    
-
-        
+    print(f"Time stretched dataset created at dataset/linear_stretch/{dataset_name} directory")

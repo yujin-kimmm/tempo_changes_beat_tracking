@@ -1,5 +1,4 @@
-linear_stretch/
-single_genre/
+dataset/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
