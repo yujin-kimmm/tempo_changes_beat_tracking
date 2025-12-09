@@ -159,17 +159,67 @@ def plot_results(json_file_name, save_path="./results/box_plots"):
     # fig.suptitle(f"MIREX Scores • {json_file.stem}", fontsize=16)
     fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 
+    json_name = os.path.basename(json_file_name).replace(".json","")
     
-    out_dir = os.path.join(save_path,f"{json_file_name}_boxplots.png")
+    out_dir = os.path.join(save_path,f"{json_name}_boxplots.png")
 
     fig.savefig(out_dir, dpi=300, bbox_inches="tight")
     plt.close(fig)
     # return save_path
 
 
+def plot_combine_cross_genre_results(genres, save_path="./results/box_plots"):
+    """Generate combined boxplots for all cross-genre experiments."""
+    
+    os.makedirs(save_path, exist_ok=True)
+    results_base_dir = "./results/"
+    
+    n_genres = len(genres)
+    n_metrics = len(METRIC_ORDER)
+    
+    # Create subplots: rows = genres, cols = metrics
+    fig, axes = plt.subplots(n_genres, n_metrics, figsize=(5 * n_metrics, 4 * n_genres))
+    
+    for genre_idx, genre in enumerate(genres):
+        json_file_name = f"cross_genre_{genre}_results.json"
+        json_file = os.path.join(results_base_dir, json_file_name)
+        
+        try:
+            metric_scores = parse_results(json_file)
+            
+            for metric_idx, metric in enumerate(METRIC_ORDER):
+                ax = axes[genre_idx, metric_idx]
+                model_names = sorted(metric_scores.get(metric, {}).keys())
+                data = [metric_scores[metric][name] for name in model_names]
+                ax.boxplot(data, labels=model_names, patch_artist=True)
+                
+                # Only show metric name on top row
+                if genre_idx == 0:
+                    ax.set_title(metric, fontweight='bold')
+                
+                # Only show genre name on first column
+                if metric_idx == 0:
+                    ax.set_ylabel(genre.capitalize(), fontweight='bold', fontsize=12)
+                
+                ax.set_ylim(0, 1)
+                ax.grid(axis="y", linestyle="--", alpha=0.4)
+                
+        except FileNotFoundError:
+            print(f"Warning: {json_file_name} not found")
+            continue
+    
+    fig.suptitle("Cross-Genre Beat Tracking Results", fontsize=16, fontweight='bold')
+    fig.tight_layout(rect=[0, 0.02, 1, 0.98])
+    
+    out_dir = os.path.join(save_path, "cross_genre_combined_results.png")
+    fig.savefig(out_dir, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    print(f"Saved combined plot to: {out_dir}")
+
+
 def sonify_track(audio_file_path, beat_times, sample_rate=44100, hop_length=512):
     
-    y, sr = librosa.load(audio_file_path=audio_file_path, sample_rate=sample_rate)
+    y, sr = librosa.load(audio_file_path, sr=sample_rate)
     
     if y is not None and len(beat_times) > 0:
         print("\n--- Sonifying Detected Pulse ---")
@@ -187,7 +237,7 @@ def sonify_track(audio_file_path, beat_times, sample_rate=44100, hop_length=512)
             
             # Display the audio player in your notebook
             print("Playing audio with detected beats (click track)...")
-            Audio(mixed_audio_normalized, rate=sr)
+            return Audio(mixed_audio_normalized, rate=sr)
         
         except Exception as e:
             print(f"Error during sonification: {e}")

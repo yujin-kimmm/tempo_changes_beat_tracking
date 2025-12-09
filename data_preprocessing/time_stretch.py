@@ -32,53 +32,117 @@ def load_segment(dataset, track_id, start=0, end=30):
 
 
 def track_time_stretch(track, sr):
+    """
+    Apply time-varying stretch to audio where speed decreases linearly from 1.0x to 0.5x
     
+    Args:
+        track: Original audio samples (numpy array)
+        sr: Sample rate (Hz)
+    
+    Returns:
+        track_stretched: Time-stretched audio samples
+    """
+    
+    # Set stretch rate to 1.5x (30 seconds will become ~45 seconds)
     stretch_rate = 1.5
+    
+    # Calculate expected output length (original length × 1.5)
     estimated_output_length = int(len(track) * stretch_rate)
     
+    # Create time array for stretched audio (each sample's time in seconds)
     output_times = np.arange(estimated_output_length) / sr
+    
+    # Initialize array to store original audio timestamps for each output sample
     input_times = np.zeros_like(output_times)
     
-    current_input_time = 0
+    # Track current position in original audio (starts at 0 seconds)
+    current_input_time = 0 
+    
+    # Time duration of one sample (1/sr seconds)
     time_steps = 1 / sr
     
-    for i in range(len(output_times)):
-        output_time = output_times[i]
+    # For each sample in the stretched output
+    for i in range(len(output_times)): 
+        output_time = output_times[i]  # Current output time (not used)
     
-        #calculate current speed
-        current_speed = 1.0 - 0.5 * (current_input_time / 30)
+        # Calculate playback speed at current position
+        # Speed decreases linearly: 1.0 at 0s → 0.5 at 30s
+        current_speed = 1.0 - 0.5 * (current_input_time / 30) 
     
+        # Record which original time this output sample comes from
         input_times[i] = current_input_time
-        current_input_time += current_speed * time_steps
+        
+        # Advance in original audio based on current speed
+        # Slower speed = smaller advancement = stretching effect
+        current_input_time += current_speed * time_steps 
 
+    # Convert time (seconds) to sample indices in original audio
     input_samples = input_times * sr
     
+    # Interpolate to get stretched audio values from original audio
+    # Maps each output sample to its corresponding position in original audio
     track_stretched = np.interp(input_samples, np.arange(len(track)), track)
     
     return track_stretched
 
 
 def time_mapping(input_time):
+    """
+    Map original audio time to stretched audio time using logarithmic formula.
+    This corresponds to the time-varying speed change (1.0x → 0.5x).
     
+    Args:
+        input_time: Time in original audio (seconds)
+    
+    Returns:
+        output_time: Corresponding time in stretched audio (seconds)
+    """
+    
+    # If time is 0 or negative, return 0
     if input_time <= 0:
         return 0
+    
+    # If time exceeds 30s, handle separately (speed is constant at 0.5x after 30s)
     if input_time > 30:
         # After 30s, speed is constant at 0.5x
         # time_at_30 = 60 * np.log(60 / (60 - 30))  # ≈ 41.59s
         # return time_at_30 + (input_time - 30) / 0.5
+        
+        # Recursively get time at 30s, then add remaining time at 0.5x speed
         return time_mapping(30) + (input_time - 30) / 0.5
     
+    # Mathematical formula for time mapping with linearly decreasing speed
+    # Integrates speed function: v(t) = 1.0 - 0.5*(t/30)
     output_time = 60 * np.log(60 / (60 - input_time))
     return output_time
 
 
 def annotations_time_stretch(track):
+    """
+    Apply the same time stretch transformation to beat annotations.
+    Maps original beat times to their new positions in stretched audio.
     
-    original_beat_times=track.beats.times
-    beat_mask = (original_beat_times >=0) & (original_beat_times <= 30)
+    Args:
+        track: Track object containing beat annotations
+    
+    Returns:
+        stretched_beat_times: Beat times adjusted for stretched audio (numpy array)
+    """
+    
+    # Get original beat timestamps from track annotations
+    original_beat_times = track.beats.times
+    
+    # Create boolean mask to select only beats within 0-30 second range
+    beat_mask = (original_beat_times >= 0) & (original_beat_times <= 30)
+    
+    # Filter beats to only include those within 30 seconds
     beats_30 = original_beat_times[beat_mask]
+    
+    # Get corresponding beat positions (not used, but extracted for consistency)
     beat_positions = track.beats.positions[beat_mask]
     
+    # Apply time_mapping function to each beat time to get stretched positions
+    # Each original beat time is mapped to its new position in stretched audio
     stretched_beat_times = np.array([time_mapping(t) for t in beats_30])
     
     return stretched_beat_times
