@@ -92,7 +92,7 @@ We created three datasets by synthesizing RWC_Popular and GTZAN_genre to test th
    - We implemented a time-stretch algorithm and used it to gradually make each sample from the RWC_Popular dataset faster or slower.
    - This dataset consists of 100 samples.
 
-All these datasets can be recreated either by running `notebook.ipynb` or by using the scripts inside the `data_preprocessing/` folder.
+All these datasets can be recreated by running `notebook.ipynb` or by downloading from [link](https://drive.google.com/drive/folders/1clNjw56TeBiIlDmy2Y4oC4cHq6GZPGca?usp=drive_link).
 
 ---
 
